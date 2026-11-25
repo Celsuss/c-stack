@@ -1,0 +1,4 @@
+# Only portable configuration belongs in source control.
+*
+!.gitignore
+!config.yaml

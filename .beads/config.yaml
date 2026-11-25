@@ -1,0 +1,15 @@
+# GitHub hosts Dolt history at refs/dolt/data, separate from main.
+sync:
+  remote: git+ssh://git@github.com/Celsuss/c-stack.git
+
+# Keep version-control commits and publication explicit.
+dolt:
+  auto-commit: "off"
+  auto-push: false
+
+backup:
+  git-push: false
+
+export:
+  auto: false
+  git-add: false

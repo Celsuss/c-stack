@@ -1,0 +1,5 @@
+min_version = "2026.11.14"
+
+[tools]
+"github:casey/just" = "1.46.0"
+"github:gastownhall/beads" = "1.3.4"

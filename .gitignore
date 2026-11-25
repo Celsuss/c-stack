@@ -1,0 +1,6 @@
+# Local overrides and secrets.
+/mise.local.toml
+/mise.local.lock
+/.env
+/.env.*
+!/.env.example
