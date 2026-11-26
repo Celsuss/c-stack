@@ -3,6 +3,10 @@
 A declarative, version-pinned home for my agentic development stack. Beads is
 the first tool; mise manages installations and Justfile provides the workflow.
 
+`skills-inactive/` holds skills that are currently inactive, including
+`graphify-context` and `repomix-context`. These are excluded from installation
+and linting. Move a skill back into `skills/` to enable it.
+
 ## Bootstrap
 
 Prerequisites: Git, a POSIX shell, and [mise](https://mise.jdx.dev/getting-started.html).
